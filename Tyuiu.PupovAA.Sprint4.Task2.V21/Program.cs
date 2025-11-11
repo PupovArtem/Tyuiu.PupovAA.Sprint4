@@ -47,7 +47,7 @@ internal class Program
         Console.WriteLine("* Результат:                                                        *");
         Console.WriteLine("***************************************************************************");
         int narray = ds.Calculate(nums);
-        Console.WriteLine("результат сложения нечетных элементов массива = " + narray);
+        Console.WriteLine("результат умножения четных элементов массива = " + narray);
         Console.ReadLine();
     }
 }
